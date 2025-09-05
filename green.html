@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Village Pass</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+    </style>
+</head>
+
+<body class="bg-emerald-50 text-emerald-900 flex flex-col min-h-screen">
+
+    <header class="bg-emerald-800 text-white py-6 md:py-8 shadow-lg">
+        <div class="container mx-auto px-4 flex items-center">
+            <img src="logo.jpg" alt="Green Village Logo" class="w-16 h-16 mr-4 rounded-full">
+            <div class="text-center md:text-left">
+                <h1 class="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight">Green Village Pass</h1>
+                <p class="mt-1 text-xs sm:text-sm font-light opacity-80 hidden md:block">Eco-Tourism & Sustainability in Rural Communities</p>
+            </div>
+            <nav class="hidden md:flex space-x-6 ml-auto">
+                <a href="index.html" class="text-white hover:text-emerald-200 transition duration-300 font-medium">Home</a>
+                <a href="about.html" class="text-white hover:text-emerald-200 transition duration-300 font-medium">About Us</a>
+                <a href="booking.html" class="text-white hover:text-emerald-200 transition duration-300 font-medium">Bookings</a>
+                <a href="mission.html" class="text-white hover:text-emerald-200 transition duration-300 font-medium">Mission</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        <section class="bg-emerald-200 text-emerald-900 py-12 md:py-20 text-center shadow-inner">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight leading-tight">Visit. Support. Conserve.</h2>
+                <p class="mt-4 text-lg sm:text-xl md:text-2xl font-light">
+                    Book authentic rural experiences and track your <span class="font-semibold">carbon impact</span> 🌿
+                </p>
+                <div class="mt-8">
+                    <h3 class="text-xl font-bold mb-2">Scan to Discover More</h3>
+                    <a href="about.html">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.example.com/about.html" alt="QR Code to About Us Page" class="mx-auto w-36 h-36 border-4 border-emerald-500 rounded-lg shadow-lg">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="py-12 md:py-16 text-center">
+            <div class="container mx-auto px-4 flex flex-col items-center">
+                <h3 class="text-2xl font-bold mb-4">Have a question? Chat with us on WhatsApp!</h3>
+                <div class="flex flex-col md:flex-row items-center justify-center gap-6">
+                    <div class="bg-white p-4 rounded-lg shadow-lg">
+                        <img src="https://via.placeholder.com/160" alt="WhatsApp QR Code" class="w-32 h-32 md:w-40 md:h-40">
+                    </div>
+                    <p class="text-lg font-medium text-gray-700 hidden md:block">OR</p>
+                    <a href="https://wa.me/1234567890?text=Hello!%20I'm%20interested%20in%20learning%20more%20about%20Green%20Village%20Pass."
+                       class="inline-flex items-center justify-center bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-3 px-6 rounded-full transition duration-300 transform hover:scale-105"
+                       target="_blank" rel="noopener noreferrer">
+                       <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Icon" class="inline-block w-6 h-6 mr-2">
+                       Chat on WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
