@@ -37,41 +37,11 @@
         <a href="#" class="text-white hover:text-emerald-200 transition duration-300 font-medium">Mission</a>
     </nav>
 
-    <main class="flex-grow">
-        <section class="container mx-auto px-4 py-12">
-            <h3 class="text-3xl font-semibold mb-6 text-center">Book Your Experience</h3>
-            <form id="bookingForm" class="bg-white p-6 md:p-10 rounded-3xl shadow-2xl max-w-2xl mx-auto space-y-6">
-                <div>
-                    <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
-                    <input id="name" name="name" type="text" placeholder="Your name" required
-                        class="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition duration-200" />
-                </div>
-                <div>
-                    <label for="village" class="block text-sm font-medium text-gray-700 mb-1">Choose Village</label>
-                    <select id="village" name="village"
-                        class="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition duration-200 bg-white">
-                        <option>Green Hills</option>
-                        <option>Sun Valley</option>
-                        <option>Eco Ridge</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="date" class="block text-sm font-medium text-gray-700 mb-1">Visit Date</label>
-                    <input id="date" name="date" type="date" required
-                        class="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition duration-200" />
-                </div>
-                <div>
-                    <label for="nights" class="block text-sm font-medium text-gray-700 mb-1">Number of Nights</label>
-                    <input id="nights" name="nights" type="number" min="1" placeholder="e.g. 2" required
-                        class="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition duration-200" />
-                </div>
-                <button type="submit"
-                    class="w-full mt-6 py-3 px-4 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold rounded-xl shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1">
-                    Book Now
-                </button>
-            </form>
-        </section>
-    </main>
+    <button type="button"
+    class="w-full mt-6 py-3 px-4 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold rounded-xl shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1"
+    onclick="window.location.href='https://docs.google.com/forms/d/1fKBhGWYyr3rlo_Q3lJfck7hq1h_pansZ0Px29U6RKf8/edit'">
+    Book Now
+</button>
 
     <footer class="bg-emerald-800 text-white py-6 text-center mt-auto">
         <p>&copy; 2025 Green Village Pass. All rights reserved.</p>
